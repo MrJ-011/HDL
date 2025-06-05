@@ -1,1 +1,1 @@
-this is my quartus vhdl folders
+HDL LAB
