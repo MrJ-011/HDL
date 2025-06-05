@@ -1,0 +1,41 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "coil_n[0]",
+					"strict" : false
+				},
+				{
+					"name" : "coil_n[1]",
+					"strict" : false
+				},
+				{
+					"name" : "coil_n[2]",
+					"strict" : false
+				},
+				{
+					"name" : "coil_n[3]",
+					"strict" : false
+				},
+				{
+					"name" : "enable_n",
+					"strict" : false
+				},
+				{
+					"name" : "reset_n",
+					"strict" : false
+				},
+				{
+					"name" : "dir_n",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

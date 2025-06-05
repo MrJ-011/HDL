@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, H:/HDL/EXOR/EXOR_Gate.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, H:/HDL/EXOR/db/EXOR_Gate.cbx.xml
+design_name = EXOR_Gate
+instance = comp, \Z~output , Z~output, EXOR_Gate, 1
+instance = comp, \Y~input , Y~input, EXOR_Gate, 1
+instance = comp, \X~input , X~input, EXOR_Gate, 1
+instance = comp, \process_0~0 , process_0~0, EXOR_Gate, 1
+design_name = hard_block
+instance = comp, \~ALTERA_ASDO_DATA1~~ibuf , ~ALTERA_ASDO_DATA1~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_FLASH_nCE_nCSO~~ibuf , ~ALTERA_FLASH_nCE_nCSO~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_DATA0~~ibuf , ~ALTERA_DATA0~~ibuf, hard_block, 1

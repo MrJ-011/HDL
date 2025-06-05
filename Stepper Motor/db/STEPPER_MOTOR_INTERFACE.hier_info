@@ -1,0 +1,43 @@
+|STEPPER_MOTOR_INTERFACE
+clk => step_clk.CLK
+clk => clk_div[0].CLK
+clk => clk_div[1].CLK
+clk => clk_div[2].CLK
+clk => clk_div[3].CLK
+clk => clk_div[4].CLK
+clk => clk_div[5].CLK
+clk => clk_div[6].CLK
+clk => clk_div[7].CLK
+clk => clk_div[8].CLK
+clk => clk_div[9].CLK
+clk => clk_div[10].CLK
+clk => clk_div[11].CLK
+clk => clk_div[12].CLK
+clk => clk_div[13].CLK
+clk => clk_div[14].CLK
+clk => clk_div[15].CLK
+clk => clk_div[16].CLK
+clk => clk_div[17].CLK
+clk => clk_div[18].CLK
+clk => clk_div[19].CLK
+clk => clk_div[20].CLK
+reset_n => coil_n[0]~reg0.PRESET
+reset_n => coil_n[1]~reg0.PRESET
+reset_n => coil_n[2]~reg0.PRESET
+reset_n => coil_n[3]~reg0.PRESET
+reset_n => step_counter[0].ACLR
+reset_n => step_counter[1].ACLR
+enable_n => coil_n.OUTPUTSELECT
+enable_n => coil_n.OUTPUTSELECT
+enable_n => coil_n.OUTPUTSELECT
+enable_n => coil_n.OUTPUTSELECT
+enable_n => step_counter[1].ENA
+enable_n => step_counter[0].ENA
+dir_n => step_counter.OUTPUTSELECT
+dir_n => step_counter.OUTPUTSELECT
+coil_n[0] <= coil_n[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+coil_n[1] <= coil_n[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+coil_n[2] <= coil_n[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+coil_n[3] <= coil_n[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

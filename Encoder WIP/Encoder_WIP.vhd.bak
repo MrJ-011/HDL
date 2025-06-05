@@ -1,0 +1,20 @@
+library IEEE; 
+use IEEE.STD_LOGIC_1164.ALL; 
+use IEEE.STD_LOGIC_ARITH.ALL; 
+use IEEE.STD_LOGIC_UNSIGNED.ALL; 
+entity Encoder_WIP is 
+    Port ( i : in  STD_LOGIC_VECTOR (7 downto 0); 
+           y : out  STD_LOGIC_VECTOR (2 downto 0)); 
+end Encoder_WIP; 
+architecture Behavioral of Encoder_WIP is 
+begin 
+with i select 
+y<="000" when "00000111", 
+"001" when "00000110", 
+"010" when "00000101", 
+"011" when "00000100", 
+"100" when "00000011", 
+"101" when "00000010", 
+"110" when "00000001", 
+"111" when others; 
+end Behavioral;

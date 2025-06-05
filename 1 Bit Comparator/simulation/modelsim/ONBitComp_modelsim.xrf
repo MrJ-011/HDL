@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, H:/HDL/1 Bit Comparator/ONBitComp.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, H:/HDL/1 Bit Comparator/db/ONBitComp.cbx.xml
+design_name = hard_block
+design_name = ONBitComp
+instance = comp, \y[0]~output\, y[0]~output, ONBitComp, 1
+instance = comp, \y[1]~output\, y[1]~output, ONBitComp, 1
+instance = comp, \y[2]~output\, y[2]~output, ONBitComp, 1
+instance = comp, \a~input\, a~input, ONBitComp, 1
+instance = comp, \b~input\, b~input, ONBitComp, 1
+instance = comp, \y~0\, y~0, ONBitComp, 1
+instance = comp, \y~1\, y~1, ONBitComp, 1
+instance = comp, \y~2\, y~2, ONBitComp, 1

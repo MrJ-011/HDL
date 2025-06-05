@@ -1,0 +1,36 @@
+library IEEE; 
+use IEEE.STD_LOGIC_1164.ALL; 
+use IEEE.STD_LOGIC_ARITH.ALL; 
+use IEEE.STD_LOGIC_UNSIGNED.ALL; 
+entity jkff1 is 
+Port ( j,k,clk,reset : in  STD_LOGIC; 
+Q : inout  STD_LOGIC); 
+end jkff1; 
+architecture Behavioral of jkff1 is 
+signal div:std_logic_vector(22 downto 0); 
+signal clkd:std_logic; 
+begin  
+process(clk) 
+begin 
+if rising_edge(clk)then 
+div<= div+1; 
+end if; 
+end process; 
+clkd<=div(22); 
+process(clkd,reset) 
+begin 
+if(reset='1')then 
+Q<= '0'; 
+elsif(clkd'event and clkd='1')then 
+if(j='0' and k='0')then 
+Q<= Q; 
+elsif(j='0' and k='1')then 
+Q<= '0'; 
+elsif(j='1' and k='0')then 
+Q<= '1'; 
+elsif(j='1' and k='1')then 
+Q<= not Q; 
+end if; 
+end if; 
+end process; 
+end Behavioral;

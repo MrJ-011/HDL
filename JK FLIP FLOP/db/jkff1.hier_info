@@ -1,0 +1,36 @@
+|jkff1
+j => process_1.IN0
+j => process_1.IN0
+j => process_1.IN0
+j => process_1.IN0
+k => process_1.IN1
+k => process_1.IN1
+k => process_1.IN1
+k => process_1.IN1
+clk => div[0].CLK
+clk => div[1].CLK
+clk => div[2].CLK
+clk => div[3].CLK
+clk => div[4].CLK
+clk => div[5].CLK
+clk => div[6].CLK
+clk => div[7].CLK
+clk => div[8].CLK
+clk => div[9].CLK
+clk => div[10].CLK
+clk => div[11].CLK
+clk => div[12].CLK
+clk => div[13].CLK
+clk => div[14].CLK
+clk => div[15].CLK
+clk => div[16].CLK
+clk => div[17].CLK
+clk => div[18].CLK
+clk => div[19].CLK
+clk => div[20].CLK
+clk => div[21].CLK
+clk => div[22].CLK
+reset => q_int.ACLR
+Q <= q_int.DB_MAX_OUTPUT_PORT_TYPE
+
+

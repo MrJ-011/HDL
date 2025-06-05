@@ -1,0 +1,12 @@
+|Gray_Bin
+g[0] => bin_temp.IN1
+g[1] => bin_temp.IN1
+g[2] => bin_temp.IN0
+g[3] => bin_temp.IN1
+g[3] => b[3].DATAIN
+b[0] <= bin_temp.DB_MAX_OUTPUT_PORT_TYPE
+b[1] <= bin_temp.DB_MAX_OUTPUT_PORT_TYPE
+b[2] <= bin_temp.DB_MAX_OUTPUT_PORT_TYPE
+b[3] <= g[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

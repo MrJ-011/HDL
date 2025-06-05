@@ -1,0 +1,150 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/EB204_11/Desktop/HDL/And Gate/simulation/qsim
+Eand_gate
+Z1 w1741954723
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 WOh:M[al;oVzG5c`<He>D0
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 zGMDhP>8e@2k@f0e<PY]k2
+!i122 0
+R0
+Z8 8And_Gate.vho
+Z9 FAnd_Gate.vho
+l0
+L78 1
+V1E6oJ8D]mO7zohklZ1kBa2
+!s100 7l;okLn8[UANR7V5;:Wef1
+Z10 OV;C;2020.1;71
+32
+Z11 !s110 1741954723
+!i10b 1
+Z12 !s108 1741954723.000000
+Z13 !s90 -work|work|And_Gate.vho|
+Z14 !s107 And_Gate.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 8 and_gate 0 22 1E6oJ8D]mO7zohklZ1kBa2
+!i122 0
+l117
+L92 90
+VJmC3<o=jeCL8kS;[^Xd_E3
+!s100 P6>61ZinTA]OT>ZDQoaMi0
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Eand_gate_vhd_vec_tst
+Z17 w1741954722
+R5
+R6
+!i122 1
+R0
+Z18 8Waveform.vwf.vht
+Z19 FWaveform.vwf.vht
+l0
+L32 1
+Vm@b=O5dRPAam5H>B8[O:I3
+!s100 j=0b5ZIJmWJmEIFLM:iC>3
+R10
+32
+Z20 !s110 1741954724
+!i10b 1
+R12
+Z21 !s90 -work|work|Waveform.vwf.vht|
+!s107 Waveform.vwf.vht|
+!i113 1
+R15
+R16
+Aand_gate_arch
+R5
+R6
+DEx4 work 20 and_gate_vhd_vec_tst 0 22 m@b=O5dRPAam5H>B8[O:I3
+!i122 1
+l47
+L34 36
+V:]1M>0F6BS5?6Eh7>5@Kk3
+!s100 hUUQX6B]RXBHaRi3zM??;1
+R10
+32
+R20
+!i10b 1
+R12
+R21
+Z22 !s107 Waveform.vwf.vht|
+!i113 1
+R15
+R16
+Ehard_block
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+!i122 0
+R0
+R8
+R9
+l0
+L35 1
+VB]0;STalBkCB1_B4BXQDW2
+!s100 >mXi5[`cD`bFC`UBKA<om3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 hard_block 0 22 B]0;STalBkCB1_B4BXQDW2
+!i122 0
+l65
+L51 20
+Via>5o7W??azG@W@@eFOTF0
+!s100 [5;Wd8QGQ>@2NGoJ1I]Y43
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16

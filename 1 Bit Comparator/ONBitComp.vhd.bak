@@ -1,0 +1,28 @@
+library IEEE; 
+use IEEE.STD_LOGIC_1164.ALL; 
+use IEEE.STD_LOGIC_ARITH.ALL; 
+use IEEE.STD_LOGIC_UNSIGNED.ALL; 
+	entity ONBitComp is 
+		Port ( a,b : in  STD_LOGIC; y : out  STD_LOGIC_VECTOR (2 downto 0)); 
+	end ONBitComp; 
+architecture struct of ONBitComp is 
+component and1 
+port(l,m:in std_logic;  --‐components, entity and architecture 
+	n:out std_logic);                      
+	end component; 
+	component xnor1 is 
+port(p,q:in std_logic;            
+	r:out std_logic);                  
+	end component; 
+component notgate1 is 
+port(s:in std_logic;               
+	t:out std_logic);            
+	end component; 
+	signal s1,s2:std_logic; 
+	begin 
+	u1:and1 port map(a,s2,y(0)); 
+	u2:and1 port map(s1,b,y(1)); 
+	u3:xnor1 port map(a,b,y(2)); 
+	u4:notgate1 port map(a,s1); 
+	u5:notgate1 port map(b,s2); 
+end struct;

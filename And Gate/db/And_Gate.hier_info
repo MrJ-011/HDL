@@ -1,0 +1,6 @@
+|And_Gate
+x => process_0.IN0
+y => process_0.IN1
+z <= process_0.DB_MAX_OUTPUT_PORT_TYPE
+
+

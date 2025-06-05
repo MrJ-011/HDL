@@ -1,0 +1,29 @@
+library IEEE; 
+use IEEE.STD_LOGIC_1164.ALL; 
+use IEEE.STD_LOGIC_ARITH.ALL; 
+use IEEE.STD_LOGIC_UNSIGNED.ALL; 
+entity BCDUP_Count is 
+Port ( clk,rst : in  STD_LOGIC; 
+q : inout  STD_LOGIC_VECTOR (3 downto 0)); 
+end BCDUP_Count; 
+architecture Behavioral of BCDUP_Count is 
+signal div:std_logic_vector(22 downto 0); 
+signal clkd:std_logic; 
+begin 
+process(clkd) 
+begin 
+if rising_edge(clk)then 
+div<= div+1; 
+end if; 
+end process; 
+clkd<=div(22); 
+process(clkd,rst) 
+begin 
+if rst='0' or q="1010" then 
+q<="0000"; 
+elsif clkd'event and clkd='1' then 
+q<=q+1; 
+end if; 
+end process; 
+ q<=q; 
+ end Behavioral;

@@ -1,0 +1,46 @@
+|DC_MOTOR_INTERFACE
+clk => direction.CLK
+clk => enabled.CLK
+clk => motor_n[0]~reg0.CLK
+clk => motor_n[1]~reg0.CLK
+clk => pwm_clk.CLK
+clk => clk_div[0].CLK
+clk => clk_div[1].CLK
+clk => clk_div[2].CLK
+clk => clk_div[3].CLK
+clk => clk_div[4].CLK
+clk => clk_div[5].CLK
+clk => clk_div[6].CLK
+clk => clk_div[7].CLK
+clk => clk_div[8].CLK
+clk => clk_div[9].CLK
+clk => clk_div[10].CLK
+clk => clk_div[11].CLK
+clk => clk_div[12].CLK
+clk => clk_div[13].CLK
+clk => clk_div[14].CLK
+clk => clk_div[15].CLK
+clk => clk_div[16].CLK
+clk => clk_div[17].CLK
+clk => clk_div[18].CLK
+reset_n => pwm_n~reg0.PRESET
+reset_n => pwm_cnt[0].ACLR
+reset_n => pwm_cnt[1].ACLR
+reset_n => pwm_cnt[2].ACLR
+reset_n => pwm_cnt[3].ACLR
+reset_n => pwm_cnt[4].ACLR
+reset_n => pwm_cnt[5].ACLR
+reset_n => pwm_cnt[6].ACLR
+reset_n => pwm_cnt[7].ACLR
+reset_n => direction.ACLR
+reset_n => enabled.ACLR
+reset_n => motor_n[0]~reg0.PRESET
+reset_n => motor_n[1]~reg0.PRESET
+start_n => enabled.DATAIN
+dir_n => direction.DATAIN
+pwm_n <= pwm_n~reg0.DB_MAX_OUTPUT_PORT_TYPE
+motor_n[0] <= motor_n[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+motor_n[1] <= motor_n[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+stat_led_n <= enabled.DB_MAX_OUTPUT_PORT_TYPE
+
+
